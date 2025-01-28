@@ -5,7 +5,7 @@ import re
 import sys
 import zlib
 
-OUTDIR = '/Documents/bhp/Chapter 2/pcap-image-extractor'
+OUTDIR = '/Documents/bhp/Chapter 2/pcap-image-extractor/pictures'
 PCAPS = '/Documents/bhp/Chapter 2/pcap-image-extractor'
 
 Response = collections.namedtuple('Response', ['header', 'payload'])

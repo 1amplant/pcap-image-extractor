@@ -1,9 +1,9 @@
 import cv2
 import os
 
-ROOT = '/Documents/bhp/Chapter 2/pictures'
-FACES = '/Documents/bhp/Chapter 2/faces'
-TRAIN = '/Documents/bhp/Chapter 2/training'
+ROOT = '/Documents/bhp/Chapter 2/pcap-image-extractor/pictures'
+FACES = '/Documents/bhp/Chapter 2/pcap-image-extractor/faces'
+TRAIN = '/Documents/bhp/Chapter 2/pcap-image-extractor/training'
 
 def detect(srcdir=ROOT, tgtdir=FACES, train_dir=TRAIN):
     for fname in os.listdir(srcdir):
